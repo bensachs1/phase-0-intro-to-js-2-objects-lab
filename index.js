@@ -20,3 +20,4 @@ function destructivelyDeleteFromEmployeeByKey(employee, key, value){
     employee[key] = value;
     return employee 
 }
+console.log ("test")
