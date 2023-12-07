@@ -4,9 +4,7 @@ streetAddress: "10 Broadway"
 }
 function updateEmployeeWithKeyAndValue(employee, key, value){
     const newObj = {...employee};
-
     newObj[key] = value;
-  
     return newObj;
 }
 function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value){
@@ -15,9 +13,7 @@ function destructivelyUpdateEmployeeWithKeyAndValue(employee, key, value){
 }
 function deleteFromEmployeeByKey(employee, key, value){
     const newObj = {...employee};
-
     newObj[key] = value;
-  
     return newObj;
 }
 function destructivelyDeleteFromEmployeeByKey(employee, key, value){
